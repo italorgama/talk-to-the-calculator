@@ -3,8 +3,14 @@ ul {
     padding: 0;
 }
 
+@font-face {
+    font-family: pixel;
+    src: url('../fonts/pixel.TTF');
+    
+}
+
 p {
-    color: #444;
+    color: #000
 }
 
 button:focus {
@@ -12,6 +18,8 @@ button:focus {
 }
 
 .container {
+    
+    font-family: pixel;
     max-width: 700px;
     margin: 0 auto;
     padding: 100px 50px;
@@ -20,6 +28,8 @@ button:focus {
 
 .container h1 {
     margin-bottom: 20px;
+    font-family: pixel;
+    color: #000;
 }
 
 .page-description {
